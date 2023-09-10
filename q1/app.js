@@ -4,7 +4,7 @@ const axios = require('axios');
 const app = express();
 const port = 3000;
 
-const accessToken = 'YourAccessToken';
+const accessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTQzMjkyMTQsImNvbXBhbnlOYW1lIjoiVHJhaW4gQ2VudHJhbCIsImNsaWVudElEIjoiMDdlNTI3YTktMWIwMS00Mzc0LWJiYmMtMTk3NGUzZTA3ZWZkIiwib3duZXJOYW1lIjoiIiwib3duZXJFbWFpbCI6IiIsInJvbGxObyI6IjUwMDA4Nzc1NCJ9.tEeEdiQyB3Z02E4JCtFJuPZynYmjYyJC5rYbk1N_xYY';
 
 app.get('/train-schedule', async (req, res) => {
     try {
